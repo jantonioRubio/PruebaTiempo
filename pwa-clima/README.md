@@ -15,6 +15,8 @@ La aplicación de clima  permite consultar el clima actual y el pronóstico de l
 - La aplicación utiliza la API de OpenWeatherMap de clima para obtener los datos necesarios. Utiliza servicios para realizar las solicitudes a la API y procesar los datos recibidos.
 
 ## Demo
+Pruebas realizadas con la extension de chrome
+`https://chrome.google.com/webstore/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk?hl=es`
 
 ![Demo](src/assets/images/demo.gif)
 
