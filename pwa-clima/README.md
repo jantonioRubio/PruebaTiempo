@@ -64,7 +64,7 @@ pwa-clima@0.0.0 C:\Users\jose.rubio\Documents\PruebaTiempo\pwa-clima
 
 ## Instalación
 
-- Clona el repositorio: git clone <URL del repositorio>
+- Clona el repositorio: git clone <https://github.com/jantonioRubio/PruebaTiempo.git>
 - Posicionarse en el directorio raiz de la app `PruebaTiempo\pwa-clima`
 - Instala las dependencias: `npm install`
 
@@ -92,8 +92,8 @@ La aplicación  utiliza la API de OpenWeatherMap [https://openweathermap.org/api
 
 ## Autores
 
-Jose Antonio Rubio Sancho 
-Email: jarcla55@gmail.com
+- Jose Antonio Rubio Sancho 
+- Email: jarcla55@gmail.com
 
 ## Pruebas
 
