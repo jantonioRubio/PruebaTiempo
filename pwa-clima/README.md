@@ -77,6 +77,8 @@ En la carpeta raiz del proyecto crear la build: `npm run prod`
 - Ejecuta la aplicación: `ng serve`
 - Accede a la aplicación en tu navegador: `http://localhost:4200/`
 
+![App](src/assets/images/App.gif)
+
 ## API
 
 La aplicación  utiliza la API de OpenWeatherMap [https://openweathermap.org/api]
