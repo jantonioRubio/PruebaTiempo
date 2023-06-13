@@ -1,0 +1,1 @@
+Accede al directorio raiz de la app `PruebaTiempo\pwa-clima` parapoder instalartela.
