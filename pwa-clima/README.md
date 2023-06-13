@@ -64,9 +64,9 @@ pwa-clima@0.0.0 C:\Users\jose.rubio\Documents\PruebaTiempo\pwa-clima
 
 ## Instalación
 
-1- Clona el repositorio: git clone <URL del repositorio>
-2- Posicionarse en el directorio raiz de la app `PruebaTiempo\pwa-clima`
-3- Instala las dependencias: `npm install`
+- Clona el repositorio: git clone <URL del repositorio>
+- Posicionarse en el directorio raiz de la app `PruebaTiempo\pwa-clima`
+- Instala las dependencias: `npm install`
 
 ## Construcción
 
@@ -74,8 +74,8 @@ En la carpeta raiz del proyecto crear la build: `npm run prod`
 
 ## Uso
 
-1 -Ejecuta la aplicación: `ng serve`
-2- Accede a la aplicación en tu navegador: `http://localhost:4200/`
+- Ejecuta la aplicación: `ng serve`
+- Accede a la aplicación en tu navegador: `http://localhost:4200/`
 
 ## API
 
