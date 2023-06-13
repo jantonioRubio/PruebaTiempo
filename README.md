@@ -1,1 +1,1 @@
-Accede al directorio raiz de la app `PruebaTiempo\pwa-clima` parapoder instalartela.
+Accede al directorio raiz de la app `PruebaTiempo\pwa-clima` para poder probar la app.
