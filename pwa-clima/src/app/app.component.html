@@ -50,11 +50,11 @@
       </div>
     </main>
     <hr>
-    <div id="contenidoHTMLClima" style="height: 100%;"></div>
+    <div id="contenidoHTMLClima"></div>
     <button class="btn btn-link" (click)="abrirInformacion()">Ver información completa</button>
 
     <hr>
-    <div *ngIf="weatherForecast" style="height: 100%;">
+    <div *ngIf="weatherForecast">
     <div id="contenidoHTMLPronostico" class="d-grid gap-2 table-container"></div>
     </div>
     <div *ngIf="errorMessage" class="alert alert-danger" role="alert">
