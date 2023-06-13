@@ -1,0 +1,137 @@
+.card {
+  background-color: #006EC1;
+  height: 100vh;
+}
+
+.input {
+  font-weight: bold;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.input::placeholder {
+  font-weight: normal;
+}
+
+.input:focus {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.alert {
+  background: rgba(208, 2, 27, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.icon {
+  width: 150px;
+}
+
+.min-max {
+  margin-bottom: 0;
+}
+
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% {
+    -webkit-transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes sk-bounce {
+  0%, 100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+
+.small-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.forecast-table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.forecast-column {
+  display: table-cell;
+  padding: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.forecast-column p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.forecast-column img {
+  width: 40px;
+  height: 40px;
+}
+
+.table-container-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-container-btn table {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.table-container-btn table td {
+  padding: 0px;
+  line-height: 1;
+}
+
+.table-container-btn table .btn {
+  margin-right: 0px;
+}
+
+.table-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-link {
+  color: white;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  /* Estilos para pantallas con un ancho máximo de 768px */
+  .card {
+    min-height: 300px;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  /* Estilos para pantallas con un ancho máximo de 576px */
+  .card {
+    min-height: 200px;
+
+  }
+
+}
+

@@ -1,0 +1,11 @@
+<div *ngIf="weatherForecast">
+  <h2>Weather Forecast</h2>
+  <ul>
+    <li *ngFor="let forecast of weatherForecast">
+      <p>Date: {{ forecast.date }}</p>
+      <p>Temperature: {{ forecast.temperature }}°C</p>
+      <p>Conditions: {{ forecast.conditions }}</p>
+      <p>Humidity: {{ forecast.humidity }}</p>
+    </li>
+  </ul>
+</div>
